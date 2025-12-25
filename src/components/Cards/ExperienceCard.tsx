@@ -3,6 +3,7 @@ import { motion, useInView } from "framer-motion";
 
 import { Card } from "../ui/card";
 import { Badge } from "../ui/badge";
+import { Award } from "lucide-react";
 
 interface ExperienceCardProps {
   role: string;
@@ -11,6 +12,7 @@ interface ExperienceCardProps {
   company: string;
   technologies: Array<string>;
   index?: number;
+  certificateImage?: string; 
 }
 
 export const ExperienceCard: FC<ExperienceCardProps> = ({
@@ -20,6 +22,7 @@ export const ExperienceCard: FC<ExperienceCardProps> = ({
   company,
   technologies,
   index = 0,
+  certificateImage, 
 }) => {
   const ref = useRef(null);
 
@@ -181,6 +184,23 @@ export const ExperienceCard: FC<ExperienceCardProps> = ({
                 </motion.div>
               ))}
             </motion.div>
+            {certificateImage && (
+            <motion.button
+              initial={{ opacity: 0, y: 10 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
+              transition={{ duration: 0.5, delay: index * 0.1 + 0.7 }}
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => window.open(certificateImage, "_blank")}
+              className="w-full mt-6 py-2.5 bg-primary hover:bg-primary/90 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2"
+            >
+              <Award className="w-4 h-4" />
+              View Certificate
+            </motion.button>
+)}
+
+            {/* BUTTON ENDS HERE */}
+            
           </div>
         </Card>
       </motion.div>

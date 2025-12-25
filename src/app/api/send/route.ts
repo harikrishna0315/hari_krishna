@@ -29,29 +29,6 @@ export async function POST(request: Request) {
     );
   }
 
-  try {
-    const qevResponse = await fetch(
-      `http://api.quickemailverification.com/v1/verify?email=${senderEmail}&apikey=${process.env.QEV_API_KEY}`
-    );
-
-    const data = await qevResponse.json();
-
-    console.log("QuickEmailVerification response:", data);
-
-    if (data.result !== "valid") {
-      return NextResponse.json(
-        { error: "Email address is not valid" },
-        { status: 400 }
-      );
-    }
-  } catch (err) {
-    console.error("QuickEmailVerification API failed:", err);
-    return NextResponse.json(
-      { error: "Email validation service unavailable" },
-      { status: 500 }
-    );
-  }
-
   const htmlContent = await pretty(
     await render(
       EmailTemplate({
@@ -62,9 +39,22 @@ export async function POST(request: Request) {
     )
   );
 
-  const message = {
-    from: `"Aarab Nishchal - Contact Team" <${process.env.email_from}>`,
-    to: `${senderName} <${senderEmail}>`,
+  // 📩 EMAIL 1: OWNER (YOU)
+  const ownerMessage = {
+    from: `"Hari Krishna - Contact" <${process.env.email_from}>`,
+    to: process.env.email_from,       // YOU get this
+    replyTo: senderEmail,             // reply goes to sender
+    subject: "New Contact Message",
+    html: htmlContent,
+    headers: {
+      "X-Entity-Ref-ID": "newmail",
+    },
+  };
+
+  // 📤 EMAIL 2: USER (CONFIRMATION)
+  const userMessage = {
+    from: `"Hari Krishna - Contact" <${process.env.email_from}>`,
+    to: senderEmail,                  // USER gets this
     subject: "Your message has landed! 🚀 We'll get back to you shortly",
     html: htmlContent,
     headers: {
@@ -81,15 +71,18 @@ export async function POST(request: Request) {
   });
 
   try {
-    await transporter.sendMail(message);
+    // ✉️ SEND BOTH EMAILS
+    await transporter.sendMail(ownerMessage);
+    await transporter.sendMail(userMessage);
+
     return NextResponse.json(
       {
-        message: `Email has been sent to ${senderEmail} successfully`,
+        message: `Email has been sent successfully`,
       },
       { status: 200 }
     );
   } catch (err) {
-    console.error(`Error sending email to ${senderEmail}:`, err);
+    console.error(`Error sending email:`, err);
     return NextResponse.json(
       { error: "Failed to send email" },
       { status: 500 }

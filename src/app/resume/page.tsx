@@ -27,7 +27,7 @@ export default function Resume() {
 
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const PDF_URL = "/docs/Aarab_Nishchal_Resume.pdf";
+  const PDF_URL = "/docs/HARI_KRISHNA.pdf";
 
 
 
@@ -145,9 +145,10 @@ export default function Resume() {
                 </span>
               </motion.a>
 
+
               <motion.a
                 href={PDF_URL}
-                download="Aarab_Nishchal_Resume.pdf"
+                download="HARI_KRISHNA.pdf"
                 className="group relative flex items-center gap-2 px-6 py-3 rounded-xl overflow-hidden transition-all duration-300 font-medium text-primary-foreground"
                 style={{
                   background:

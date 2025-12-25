@@ -33,11 +33,6 @@ export const Footer = () => {
       href: `https://linkedin.com/in/${selfData.socials_username.linkedin}`,
       label: "LinkedIn",
     },
-    {
-      icon: LuTwitter,
-      href: `https://twitter.com/${selfData.socials_username.twitter}`,
-      label: "Twitter",
-    },
     { icon: LuMail, href: `mailto:${selfData.email}`, label: "Email" },
   ];
 
@@ -95,7 +90,7 @@ export const Footer = () => {
             <h3
               className={`${quentine.className} text-2xl font-semibold text-primary`}
             >
-              Aarab Nishchal
+              Hari Krishna
             </h3>
           </div>
 
@@ -126,10 +121,9 @@ export const Footer = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               className="text-primary/80 hover:text-primary"
             >
-              Aarab Nishchal
+              Hari Krishna
             </button>
           </p>
-          <span>Licensed under MIT</span>
         </div>
       </div>
 

@@ -37,20 +37,11 @@ export function EmailTemplate({
       icon: "https://cdn-icons-png.flaticon.com/512/145/145807.png",
     },
     {
-      name: "LeetCode",
-      url: `https://leetcode.com/${selfData.socials_username.leetcode}`,
-      icon: "https://cdn.iconscout.com/icon/free/png-256/leetcode-3521542-2944960.png",
-    },
-    {
       name: "Instagram",
       url: `https://instagram.com/${selfData.socials_username.instagram}`,
       icon: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
     },
-    {
-      name: "X",
-      url: `https://x.com/${selfData.socials_username.twitter}`,
-      icon: "https://cdn-icons-png.flaticon.com/512/5968/5968830.png",
-    },
+    
   ];
 
   return (
@@ -69,7 +60,7 @@ export function EmailTemplate({
                 />
               </Column>
               <Column>
-                <Text style={brandText}>Aarab Nishchal</Text>
+                <Text style={brandText}>Hari Krishna</Text>
               </Column>
             </Row>
           </Section>
@@ -78,8 +69,7 @@ export function EmailTemplate({
             <Text style={heading}>Hey {userName}! 🚀</Text>
             <Text style={text}>
               Thanks a bunch for reaching out! 🎉 <br />
-              Your message just landed safely in my inbox, and I&apos;ve already
-              notified the caffeine team (aka me) to get on it ASAP.
+              Your message just landed safely in my inbox, and ]
             </Text>
 
             <Text style={text}>
@@ -94,10 +84,7 @@ export function EmailTemplate({
             <Text style={label}>💬 Message:</Text>
             <pre style={codeBlock}>{userMessage}</pre>
 
-            <Text style={text}>
-              I&apos;ll get back to you soon probably sooner than your food
-              delivery app says &quot;just 10 more minutes.&quot; 🍕
-            </Text>
+            
 
             <Section style={socialSection}>
               <table style={socialTable}>
@@ -123,8 +110,7 @@ export function EmailTemplate({
 
             <Text style={footerText}>
               You&apos;re receiving this email because you contacted me via my
-              site. If that wasn&apos;t you... it might&apos;ve been your cat
-              again 🐾
+              site. 
             </Text>
           </Section>
         </Container>

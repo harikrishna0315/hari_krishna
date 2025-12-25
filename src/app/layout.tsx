@@ -15,17 +15,17 @@ import {
 } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  applicationName: "Aarab Nishchal",
-  title: "Aarab Nishchal",
+  applicationName: "Hari Krishna",
+  title: "Hari Krishna",
   description:
-    "Aarab Nishchal is a student developer passionate about building modern web apps with Next.js, React, and open-source tools. Explore his projects, experiments, and developer portfolio.",
+    "Hari krishna is a student developer passionate about building applications on ML and IOT. Explore his projects, experiments, and developer portfolio.",
   authors: [
     {
-      name: "Aarab Nishchal",
-      url: "https://aarab.vercel.app",
+      name: "Hari Krishna",
+      url: "",
     },
   ],
-  creator: "Aarab Nishchal",
+  creator: "Hari Krishna",
   referrer: "origin-when-cross-origin",
   category: "Portfolio",
   classification: "Software Development",
@@ -54,12 +54,12 @@ export const metadata: Metadata = {
     google: "google-site-verification-code",
     yandex: "yandex-verification-code",
     other: {
-      "me": ["mailto:aarab.nishchal@gmail.com"],
+      "me": ["mailto:harikrishnx07@gmail.com"],
     },
   },
   appleWebApp: {
     capable: true,
-    title: "Aarab Nishchal",
+    title: "Hari Krishna",
     statusBarStyle: "black-translucent",
   },
   formatDetection: {
@@ -96,17 +96,17 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 
   openGraph: {
-    title: "Aarab Nishchal | Student Developer & Creative Coder",
+    title: "Hari Krishna | Student Developer ",
     description:
       "Explore Aarab Nishchal’s portfolio featuring projects in React, Next.js, AI, and developer tools. Discover a world of creative web applications and open-source experiments.",
     url: "https://aarab.vercel.app",
-    siteName: "Aarab Nishchal",
+    siteName: "Hari Krishna",
     images: [
       {
         url: "/images/thumbnail.png",
         width: 1200,
         height: 630,
-        alt: "Aarab Nishchal Portfolio Thumbnail",
+        alt: "Hari Krishna Portfolio Thumbnail",
       },
     ],
     locale: "en_US",
@@ -119,9 +119,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Aarab Nishchal | Student Developer",
+    title: "Hari Krishna | Student Developer",
     description:
-      "Check out Aarab Nishchal’s personal portfolio and dev projects using Next.js, React, Tailwind, and modern web tech.",
+      "Check out Hari Krishna’s personal portfolio and  projects .",
     images: ["/images/thumbnail.png"],
     creator: "@aarab_ii",
   },

@@ -1,46 +1,39 @@
+import { Linkedin } from "lucide-react";
+
 export const selfData = {
-  name: "Aarab Nishchal",
-  first_name: "Aarab",
-  last_name: "Nishchal",
+  name: "Hari Krishna",
+  first_name: "Hari",
+  last_name: "Krishna",
   jobTitle: "Student Developer",
-  workFor: "KIIT University",
+  workFor: "Shiv Nadar University",
   current_location: {
-    city: "Bhubaneswar",
-    state: "Odisha",
+    city: "Chennai",
+    state: "Tamil Nadu",
     country: "India",
   },
   DOB: {
-    dd: 9,
-    mm: 8,
-    yyyy: 2004,
+    dd: 3,
+    mm: 1,
+    yyyy: 200,
   },
-  email: "aarab.nishchal@gmail.com",
+  email: "harikrishnx07@gmail.com",
   roles: [
-    "Chief Problem Solver",
-    "Idea Mechanic",
-    "Possibility Pilot",
-    "Chaos Coordinator",
-    "Chief Tinkerer",
-    "Glitch Gladiator",
-    "Solution Sorcerer",
-    "Joyful Juggler",
+    "Chief Problem Solver"
+    
   ],
   desc: "I design and build tools that live on the internet.",
-  bio: "I'm a student developer passionate about crafting digital experiences. I love building intuitive web apps, exploring new technologies, and turning creative ideas into accessible tools.",
+  bio: "I’m a student developer interested in building reliable, user-focused applications, with a growing focus on applying machine learning to solve real-world problems.",
   about: [
-    "Hi, I'm a student developer who likes breaking things just to figure out how to fix them usually with JavaScript and snacks. I build web apps that try their best to work on the first try (no promises though).",
-    "React and Tailwind are my daily tools, and I'm currently exploring the mysterious land of backend development where bugs go to multiply. Full-stack dreams, coffee-fueled nights, and lots of console.log.",
-    "When I'm not coding, I'm either daydreaming startup ideas, lurking on GitHub, or explaining to my friends why 'it works on my machine' is totally valid. I love creating stuff that’s fun, functional, and maybe a little chaotic.",
-  ],
+    "Hi, I’m a Computer Science student focused on machine learning and data-driven systems. I enjoy building models that learn from real-world data and integrating them into applications that produce meaningful, usable outcomes.",
+    "I work primarily with Python for data processing, model development, and backend integration, and I’m familiar with applying ML techniques to tasks such as pattern recognition, prediction, and intelligent decision-making. I’m especially interested in understanding how models behave in practice, beyond accuracy metrics.",
+  "Outside of active development, I maintain an active lifestyle through gym workouts and football, which reinforce discipline, teamwork, and long-term consistency."  ],
 
   socials_username: {
-    facebook: "zzcwc",
-    github: "aarabii",
-    instagram: "aarab.ii",
-    leetcode: "aarabii",
-    linkedin: "aarab-nishchal",
-    snapchat: "aarab.ii",
-    telegram: "aarab_ii",
-    twitter: "aarab_ii",
+    
+    github: "harikrishna0315",
+    instagram: "hari_krishnx",
+    snapchat: "hari_krxshna",
+    linkedin:"hari-krishna-2393a633a",
+    telegram:"hari_krishnx07",
   },
 };

@@ -1,29 +1,21 @@
 export const experienceData = [
   {
-    role: "Content Development Intern (Tech)",
-    year: "Sep'24 - Present",
+    role: "Machine Learning Certification",
+    year: "2025",
     description: [
-      "Curated and crafted 6 - 12 coding challenges daily with the finesse of a quizmaster and the precision of a compiler, ensuring each problem was unique enough to confuse even your overconfident CS friend.",
-      "Collaborated with backend teams like a bug bounty hunter, eliminating 400+ data related issues in a two week sprint basically played whack a bug at enterprise scale.",
-      "Transformed abstract concepts into developerfriendly content, marrying technical depth with educational clarity, while secretly flexing my stack knowledge across AI and code logic.",
+      "Completed a comprehensive Machine Learning course on Udemy covering supervised and unsupervised learning techniques.",
+      "Worked hands-on with real-world datasets to build, train, and evaluate machine learning models using Python.",
+      "Gained practical experience in model training, accuracy evaluation, and applying ML concepts to real-world problem statements.",
     ],
-    company: "UnStop",
+    company: "Udemy",
     technologies: [
-      "Inhouse CMS",
-      "Artificial Intelligence",
-      "Code Interpretation",
+      "Python",
+      "Machine Learning",
+      "Model Training",
+      "Accuracy Evaluation",
+      "Data Analysis",
     ],
-    url: "https://www.unstop.com/",
-  },
-  {
-    role: "Graphic Designer",
-    year: "Nov'23 - Dec'24",
-    description: [
-      "Designed scrollstopping visuals for social media and event promotions, making sure even the algorithm couldn’t ignore our team’s drip.",
-      "Turned vague design briefs into crisp creative assets—because 'make it pop' is not a real instruction but I delivered anyway.",
-      "Blended creativity with speed using Illustrator, Canva, and DaVinci Resolve to bring aesthetic harmony across posters, reels, and everything in between—basically the design department’s Swiss Army knife.",
-    ],
-    company: "Team Negative (Team under KIIT-DU Fashion Society)",
-    technologies: ["Adobe Illustrator", "Canva", "daVinci Resolve"],
+    url: "https://www.udemy.com/",
+    certificateImage: "/certificates/certificate_1.jpg",
   },
 ];

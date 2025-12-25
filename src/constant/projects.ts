@@ -1,41 +1,37 @@
 export const projectsData = [
   {
-    name: "AN",
-    description:
-      "A personal portfolio built with a focus on performance, SEO, and analytics. Includes structured metadata, full integration with modern analytics tools, and scores 91+ in real-world performance tests.",
-    github_link: "https://github.com/aarabii/an",
-    demo: "https://aarab.vercel.app/",
-    tech: ["Framer Motion", "EmailJS", "Vercel Analytics"],
+    name: "Focus Guardian",
+    description:"A real-time attention monitoring system using computer vision and machine learning. Detects user distraction through facial behavior analysis with a sliding-window ML pipeline and triggers intelligent alerts while preserving user privacy.",
+    github_link: "https://github.com/harikrishna0315/focus_guardian",
+    demo: "https://focussguardian.netlify.app/", // add if/when you deploy
+    tech: ["Python", "MediaPipe", "Machine Learning", "Flask", "JavaScript"],
   },
   {
-    name: "Orphia",
+    name: "University Map Management System",
     description:
-      "An AI-powered music generator that turns text prompts into original soundtracks. Designed for musicians and content creators, it features a clean, modern UI and customizable music generation workflows.",
-    github_link: "https://github.com/aarabii/Orphia-AI-Music-Generator",
-    demo: "https://orphia.vercel.app/",
-    tech: ["Hugging Face", "Clerk", "API Integration"],
+      "A campus map management and navigation system designed to help users locate buildings, facilities, and key points of interest within a university. Provides structured location data and interactive navigation to improve accessibility and on-campus movement.",
+    github_link: "https://github.com/harikrishna0315/uni_map", // add repo link if available
+    demo: "", // add demo link if deployed
+    tech: ["JavaScript", "HTML", "CSS", "Maps API", "Web Development"],
+
   },
   {
-    name: "Ideascribe",
+    name: "AI Fitness Predictor",
     description:
-      "A collaborative workspace that supports real-time editing, authentication, file uploads, and autosaving — all built to boost creativity and productivity in team environments.",
-    github_link: "https://github.com/aarabii/ideascribe",
-    demo: "https://ideascribe.vercel.app/",
-    tech: ["Convex", "Clerk", "Edgestore"],
+  "A machine learning–driven fitness recommendation system that analyzes lifestyle data to generate personalized workout and diet plans. Uses clustering and predictive models exposed through a Flask-based REST API for real-time plan generation.",
+    github_link: "", // add repo link if available
+    demo: "https://github.com/harikrishna0315/ai_fitness_planner", // add demo link if deployed
+    tech: ["Python", "Machine Learning", "Flask", "scikit-learn", "REST API"],
+
   },
   {
-    name: "CppTestGenAI",
+    name: "Smart Pill Dispenser",
     description:
-      "A smart test case generator for C++ projects, powered by LLMs. It analyzes source and header files, creates comprehensive test scenarios, and reduces manual testing time by up to 80%.",
-    github_link: "https://github.com/aarabii/CppTestGenAI",
-    tech: ["Ollama", "Caching", "Test Pipeline"],
+      "An IoT-based medication management system that automates pill dispensing with scheduled alerts and real-time status monitoring. Integrates embedded hardware with a Python-Flask web interface to improve medication adherence and caregiver visibility.",
+    github_link: "", // add repo link if available
+    demo: "", // add demo link if deployed
+    tech: ["Arduino", "Embedded C", "Python", "Flask", "Serial Communication"],
+
   },
-  {
-    name: "CraftoGram",
-    description:
-      "An AI-driven tool for generating Instagram bios and content. Features dynamic prompt handling and real-time streaming output to help creators craft engaging profiles effortlessly.",
-    github_link: "https://github.com/aarabii/crafto",
-    demo: "https://craftogram.vercel.app/",
-    tech: ["Groq", "Vercel AI SDK", "Zod"],
-  },
+  
 ];

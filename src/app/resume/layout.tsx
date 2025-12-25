@@ -3,32 +3,26 @@ import { resumeKeywords } from "@/constant";
 import { generateResumeStructuredData } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Resume - Aarab Nishchal",
+  title: "Resume - Hari Krishna",
   description:
-    "View and download Aarab Nishchal's professional resume. Student developer with expertise in React, Next.js, and full-stack development.",
+    "View and download  Hari krishna's professional resume. Student developer with expertise in ML and IOT.",
   keywords: resumeKeywords,
   openGraph: {
-    title: "Resume - Aarab Nishchal",
+    title: "Resume - Hari Krishna",
     description:
-      "View and download Aarab Nishchal's professional resume featuring his experience and skills as a student developer.",
-    url: "https://aarab.vercel.app/resume",
-    siteName: "Aarab Nishchal",
+      "View and download Hari Krishna's professional resume featuring his experience and skills as a student developer.",
+    url: "http://localhost:3000/resume",
+    siteName: "Hari Krishna",
     images: [
       {
         url: "/images/thumbnail.png",
         width: 1200,
         height: 630,
-        alt: "Aarab Nishchal Resume",
+        alt: "Hari Krishna Resume",
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Resume - Aarab Nishchal",
-    description:
-      "View Aarab Nishchal's professional resume and experience as a student developer.",
-    images: ["/images/thumbnail.png"],
-  },
+  
 };
 
 export default function ResumeLayout({
@@ -42,7 +36,7 @@ export default function ResumeLayout({
     <>
       <link
         rel="preload"
-        href="/docs/Aarab_Nishchal_Resume.pdf"
+        href="/docs/HARI_KRISHNA.pdf"
         as="fetch"
         type="application/pdf"
         crossOrigin="anonymous"

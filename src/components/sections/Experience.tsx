@@ -37,7 +37,7 @@ export function Experience() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Experience
+            Experience and Certificates
           </motion.h2>
           <motion.p
             className="text-xs text-muted-foreground max-w-2xl mx-auto mt-4"
@@ -45,7 +45,7 @@ export function Experience() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            My professional journey and key experiences
+            My professional Experience and Certificates
           </motion.p>
         </motion.div>
 
@@ -68,8 +68,10 @@ export function Experience() {
                 description={exp.description}
                 company={exp.company}
                 technologies={exp.technologies}
+                certificateImage={exp.certificateImage}
                 index={index}
               />
+          
             ))}
           </div>
         </div>
