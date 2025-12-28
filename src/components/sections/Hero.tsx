@@ -7,7 +7,7 @@ import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { selfData } from "@/constant";
 
-import { quentine, mono } from "@/app/fonts";
+
 
 export const Hero = () => {
   const ref = useRef(null);
@@ -29,7 +29,7 @@ export const Hero = () => {
         >
           <div className="space-y-6">
             <motion.h1
-              className={`${quentine.className} text-5xl md:text-7xl lg:text-8xl font-bold`}
+              className="font-heading text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tight"
               style={{ color: "hsl(var(--primary))" }}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ export const Hero = () => {
             </motion.h1>
 
             <motion.p
-              className={`${mono.className} text-lg md:text-xl`}
+              className="font-body text-lg md:text-xl"
               style={{ color: "hsl(var(--secondary))" }}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

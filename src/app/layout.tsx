@@ -9,6 +9,12 @@ const sourceSans = Source_Sans_3({
   variable: "--font-body",
   display: "swap",
 });
+import { Inter } from "next/font/google";
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 
 const poppins = Poppins({
   subsets: ["latin"],
