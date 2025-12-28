@@ -33,7 +33,7 @@
 
 A modern, responsive portfolio website built with **Next.js 15** and **React 19**, featuring stunning dark aesthetics and smooth animations. This project showcases advanced web development practices with a focus on performance, accessibility, and user experience.
 
-**🌐 Live Demo:** [hari-krishna.vercel.app](hari-krishna.vercel.app)
+**🌐 Live Demo:** [https://hari-krishna.vercel.app](https://hari-krishna.vercel.app)
 **📱 GitHub:** [github.com/harikrishna0315](https://github.com/harikrishna0315)
 
 ## ✨ Features
@@ -226,7 +226,7 @@ export const selfData = {
 
 <div align="center">
 
-**Built with ❤️ by [Hari Krishna](hari-krishna.vercel.app)**
+**Built with ❤️ by [Hari Krishna](https://hari-krishna.vercel.app)**
 
 _Student Developer | Chief Problem Solver | Solution Sorcerer_
 

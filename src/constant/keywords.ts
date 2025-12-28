@@ -3,7 +3,7 @@ export const keywords = [
 "Hari",
 "Krishna",
 "harikrishna",
-"hari-krishna.vercel.app",
+"https://hari-krishna.vercel.app",
 "harikrishnx07@gmail.com",
 "linkedin/in/hari-krishna",
 "Hari Krishna portfolio",

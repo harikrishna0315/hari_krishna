@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   category: "Portfolio",
   classification: "Software Development",
   keywords: keywords,
-  metadataBase: new URL("hari-krishna.vercel.app"),
+  metadataBase: new URL("https://hari-krishna.vercel.app"),
 
 
   alternates: {
-    canonical: "hari-krishna.vercel.app",
+    canonical: "https://hari-krishna.vercel.app",
     languages: {
-      "en-US": "hari-krishna.vercel.app",
+      "en-US": "https://hari-krishna.vercel.app",
     },
   },
   robots: {
@@ -99,7 +99,7 @@ export const metadata: Metadata = {
     title: "Hari Krishna | Student Developer ",
     description:
       "Explore Hari Krishna’s portfolio featuring projects in React, Next.js, AI, and developer tools. Discover a world of creative web applications and open-source experiments.",
-    url: "hari-krishna.vercel.app",
+    url: "https://hari-krishna.vercel.app",
     siteName: "Hari Krishna",
     images: [
       {

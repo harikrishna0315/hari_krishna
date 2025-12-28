@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api", "/private"],
       },
     ],
-    sitemap: "hari-krishna.vercel.app",
+    sitemap: "https://hari-krishna.vercel.app",
   };
 }

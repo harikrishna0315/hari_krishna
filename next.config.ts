@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "hari-krishna.vercel.app",
+        hostname: "https://hari-krishna.vercel.app",
         port: "",
         pathname: "/**",
       },
