@@ -12,12 +12,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['var(--font-inter)', 'sans-serif'],
-        mono: ['var(--font-mono)', 'monospace'], 
-        nasalization: ['var(--font-nasalization)', 'sans-serif'],
-        quentine: ['var(--font-quentine)', 'serif'],
-        sans: ['var(--font-inter)', 'sans-serif'],
-      },
+  body: ["var(--font-body)", "sans-serif"],        // Source Sans Pro
+  heading: ["var(--font-heading)", "sans-serif"],  // Poppins
+
+  /* keep these only if still used somewhere */
+  mono: ["var(--font-mono)", "monospace"],
+  nasalization: ["var(--font-nasalization)", "sans-serif"],
+  quentine: ["var(--font-quentine)", "serif"],
+},
+
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

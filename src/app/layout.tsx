@@ -2,10 +2,25 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 import { Analytics } from "@vercel/analytics/next";
+import { Source_Sans_3, Poppins } from "next/font/google";
+const sourceSans = Source_Sans_3({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-heading",
+  display: "swap",
+});
+
 
 import { Toaster } from "sonner";
 
-import { inter, mono, nasalization, quentine } from "./fonts";
+
 
 import { keywords } from "@/constant";
 import {
@@ -137,11 +152,17 @@ export default function RootLayout({
   const organizationStructuredData = generateOrganizationStructuredData();
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+  lang="en"
+  suppressHydrationWarning
+  className={`${sourceSans.variable} ${poppins.variable}`}
+>
+
       <body
-        className={`${inter.variable} ${mono.variable} ${nasalization.variable} ${quentine.variable} font-sans`}
-        suppressHydrationWarning
-      >
+  className="font-body"
+  suppressHydrationWarning
+>
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
