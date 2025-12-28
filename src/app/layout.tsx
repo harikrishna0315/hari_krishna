@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   category: "Portfolio",
   classification: "Software Development",
   keywords: keywords,
-  metadataBase: new URL("https://aarab.vercel.app"),
+  metadataBase: new URL("hari-krishna.vercel.app"),
 
 
   alternates: {
-    canonical: "https://aarab.vercel.app",
+    canonical: "hari-krishna.vercel.app",
     languages: {
-      "en-US": "https://aarab.vercel.app",
+      "en-US": "hari-krishna.vercel.app",
     },
   },
   robots: {
@@ -98,8 +98,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hari Krishna | Student Developer ",
     description:
-      "Explore Aarab Nishchal’s portfolio featuring projects in React, Next.js, AI, and developer tools. Discover a world of creative web applications and open-source experiments.",
-    url: "https://aarab.vercel.app",
+      "Explore Hari Krishna’s portfolio featuring projects in React, Next.js, AI, and developer tools. Discover a world of creative web applications and open-source experiments.",
+    url: "hari-krishna.vercel.app",
     siteName: "Hari Krishna",
     images: [
       {
@@ -123,7 +123,7 @@ export const metadata: Metadata = {
     description:
       "Check out Hari Krishna’s personal portfolio and  projects .",
     images: ["/images/thumbnail.png"],
-    creator: "@aarab_ii",
+    creator: "@hari_krishnx",
   },
 };
 

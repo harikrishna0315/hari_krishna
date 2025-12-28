@@ -1,8 +1,8 @@
 export const resumeKeywords = [
 
-  "Aarab Nishchal",
-  "Aarab Nishchal resume",
-  "Aarab Nishchal CV",
+  "Hari Krishna",
+  "Hari Krishna resume",
+  "Hari Krishna CV",
   "Software Developer",
   "Full Stack Developer",
   "Frontend Developer",
@@ -13,7 +13,7 @@ export const resumeKeywords = [
   "Entry Level Developer",
   "Computer Science Graduate",
   "B.Tech Computer Science",
-  "KIIT University",
+  "SNU Chennai",
 
 
   "JavaScript",

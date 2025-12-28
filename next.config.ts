@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "aarab.vercel.app",
+        hostname: "hari-krishna.vercel.app",
         port: "",
         pathname: "/**",
       },
@@ -71,22 +71,22 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/email",
-        destination: "mailto:aarab.nishchal@gmail.com",
+        destination: "mailto:harikrishnx07@gmail.com",
         permanent: true,
       },
       {
         source: "/directresume",
-        destination: "/docs/Aarab_Nishchal_Resume.pdf",
+        destination: "/docs/HARI_KRISHNA.pdf",
         permanent: true,
       },
       {
         source: "/direct-resume",
-        destination: "/docs/Aarab_Nishchal_Resume.pdf",
+        destination: "/docs/HARI_KRISHNA.pdf",
         permanent: true,
       },
       {
         source: "/github",
-        destination: "www.github.com/aarabii",
+        destination: "www.github.com/harikrishna0315",
         permanent: true,
       },
     ];

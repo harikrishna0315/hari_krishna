@@ -45,7 +45,7 @@ export function generateWebsiteStructuredData() {
     name: "Hari Krishna - Portfolio",
     url: "",
     description:
-      "Aarab Nishchal's portfolio ",
+      " Hari Krishna's portfolio ",
     author: {
       "@type": "Person",
       name: selfData.name,
@@ -69,7 +69,7 @@ export function generateOrganizationStructuredData() {
     "@type": "Organization",
     name: selfData.name,
     url: "",
-    logo: "https://aarab.vercel.app/images/logo.png",
+    logo: "https://hari-krishna.vercel.app/images/logo.png",
     description: selfData.bio,
     founder: {
       "@type": "Person",
@@ -87,7 +87,7 @@ export function generateResumeStructuredData() {
   return {
     "@context": "https://schema.org",
     "@type": "DigitalDocument",
-    name: "Aarab Nishchal Resume",
+    name: "Hari Krishna Resume",
     description:
       "Professional resume of Hari Krishna - Student Developer specializing in Full-Stack Web Development",
     url: "",
@@ -113,8 +113,8 @@ export function generateResumeStructuredData() {
     },
     dateModified: new Date().toISOString(),
     fileFormat: "application/pdf",
-    contentUrl: "https://aarab.vercel.app/docs/MyResume.pdf",
-    downloadUrl: "https://aarab.vercel.app/docs/MyResume.pdf",
+    contentUrl: "https://hari-krishna.vercel.app/docs/HARI_KRISHNA.pdf",
+    downloadUrl: "https://hari-krishna.vercel.app/docs/HARI_KRISHNA.pdf",
     keywords: [
       "Software Developer",
       "Full Stack Developer",

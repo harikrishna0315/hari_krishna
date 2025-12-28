@@ -1,4 +1,4 @@
-# 🌟 Aarab Nishchal's Portfolio
+# 🌟  Hari Krishna's Portfolio
 
 <div align="center">
 
@@ -33,8 +33,8 @@
 
 A modern, responsive portfolio website built with **Next.js 15** and **React 19**, featuring stunning dark aesthetics and smooth animations. This project showcases advanced web development practices with a focus on performance, accessibility, and user experience.
 
-**🌐 Live Demo:** [aarab.vercel.app](https://aarab.vercel.app)
-**📱 GitHub:** [github.com/aarabii/An](https://github.com/aarabii/An)
+**🌐 Live Demo:** [hari-krishna.vercel.app](hari-krishna.vercel.app)
+**📱 GitHub:** [github.com/harikrishna0315](https://github.com/harikrishna0315)
 
 ## ✨ Features
 
@@ -129,8 +129,8 @@ A modern, responsive portfolio website built with **Next.js 15** and **React 19*
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/aarabii/An.git
-   cd An
+   git clone https://github.com/harikrishna0315/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**
@@ -214,11 +214,11 @@ export const selfData = {
 
 | Platform         | Username                                                    | Link                         |
 | ---------------- | ----------------------------------------------------------- | ---------------------------- |
-| 🐙 **GitHub**    | [@aarabii](https://github.com/aarabii)                      | `https://github.com/aarabii` |
-| 💼 **LinkedIn**  | [Aarab Nishchal](https://linkedin.com/in/aarab-nishchal)    | Professional Network         |
-| 📸 **Instagram** | [@aarab.ii](https://instagram.com/aarab.ii)                 | Creative Updates             |
-| 🐦 **Twitter**   | [@aarab_ii](https://twitter.com/aarab_ii)                   | Tech Thoughts                |
-| 📧 **Email**     | [aarab.nishchal@gmail.com](mailto:aarab.nishchal@gmail.com) | Direct Contact               |
+| 🐙 **GitHub**    | [@harikrishna0315](https://github.com/harikrishna0315)                      | `https://github.com/harikrishna0315` |
+| 💼 **LinkedIn**  | [Hari Krishna](https://www.linkedin.com/in/hari-krishna-2393a633a/)    | Professional Network         |
+| 📸 **Instagram** | [@hari_krishnx](https://instagram.com/hari_krishnx)                 | Creative Updates             |
+                 | Tech Thoughts                |
+| 📧 **Email**     | [harikrishnx07@gmail.com](mailto:harikrishnx07@gmail.com) | Direct Contact               |
 
 </div>
 
@@ -226,11 +226,10 @@ export const selfData = {
 
 <div align="center">
 
-**Built with ❤️ by [Aarab Nishchal](https://aarab.vercel.app)**
+**Built with ❤️ by [Hari Krishna](hari-krishna.vercel.app)**
 
 _Student Developer | Chief Problem Solver | Solution Sorcerer_
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-aarab.vercel.app-9333ea?style=for-the-badge)](https://aarab.vercel.app)
 
 </div>
 "# portfolio" 
