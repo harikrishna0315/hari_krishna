@@ -25,6 +25,8 @@ const poppins = Poppins({
 
 
 import { Toaster } from "sonner";
+import Cursor from "@/components/ui/cursor";
+import SmoothScroll from "@/components/providers/smooth-scroll";
 
 
 
@@ -159,15 +161,15 @@ export default function RootLayout({
 
   return (
     <html
-  lang="en"
-  suppressHydrationWarning
-  className={`${sourceSans.variable} ${poppins.variable}`}
->
+      lang="en"
+      suppressHydrationWarning
+      className={`${sourceSans.variable} ${poppins.variable}`}
+    >
 
       <body
-  className="font-body"
-  suppressHydrationWarning
->
+        className="font-body"
+        suppressHydrationWarning
+      >
 
         <script
           type="application/ld+json"
@@ -187,7 +189,10 @@ export default function RootLayout({
             __html: JSON.stringify(organizationStructuredData),
           }}
         />
-        {children}
+        <SmoothScroll>
+          {children}
+          <Cursor />
+        </SmoothScroll>
         <Toaster position="bottom-right" richColors closeButton />
         <Analytics />
       </body>

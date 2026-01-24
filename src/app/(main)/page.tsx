@@ -12,6 +12,7 @@ import {
   Contact,
 } from "@/components/sections";
 import { PreLoader, Background } from "@/components/common";
+import ScrollReveal from "@/components/ui/scroll-reveal";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -26,14 +27,26 @@ export default function Home() {
   return (
     <div className="min-h-screen relative">
       <Background />
-        <Navbar />
+      <Navbar />
+      <ScrollReveal>
         <Hero />
+      </ScrollReveal>
+      <ScrollReveal delay={0.2}>
         <About />
+      </ScrollReveal>
+      <ScrollReveal>
         <Skills />
+      </ScrollReveal>
+      <ScrollReveal>
         <Projects />
+      </ScrollReveal>
+      <ScrollReveal>
         <Experience />
+      </ScrollReveal>
+      <ScrollReveal>
         <Contact />
-        <Footer />
+      </ScrollReveal>
+      <Footer />
 
 
     </div>
