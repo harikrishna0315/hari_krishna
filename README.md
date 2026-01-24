@@ -1,11 +1,11 @@
-# 🌟  Hari Krishna's Portfolio
+#   Hari Krishna's Portfolio
 
 <div align="center">
 
   <!-- Logo -->
   <img src="public/images/logo.svg" alt="Portfolio Logo" width="120" height="120">
 
-### ✨ Student Developer | Chief Problem Solver | Solution Sorcerer
+###  Student Developer | Chief Problem Solver | Solution Sorcerer
 
 <kbd>My space on the web</kbd> showcasing modern web development with stunning dark aesthetics
 
@@ -16,29 +16,18 @@
 
 ---
 
-## 📋 Table of Contents
 
-- [🎯 Overview](#-overview)
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🎨 Design System](#-design-system)
-- [🚀 Quick Start](#-quick-start)
-- [⚙️ Customization](#️-customization)
-- [📸 Screenshots](#-screenshots)
-- [🔗 Connect](#-connect)
 
----
-
-## 🎯 Overview
+##  Overview
 
 A modern, responsive portfolio website built with **Next.js 15** and **React 19**, featuring stunning dark aesthetics and smooth animations. This project showcases advanced web development practices with a focus on performance, accessibility, and user experience.
 
-**🌐 Live Demo:** [https://hari-krishna.vercel.app](https://hari-krishna.vercel.app)
-**📱 GitHub:** [github.com/harikrishna0315](https://github.com/harikrishna0315)
+** Live Demo:** [https://hari-krishna.vercel.app](https://hari-krishna.vercel.app)
+** GitHub:** [github.com/harikrishna0315](https://github.com/harikrishna0315)
 
 
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### **Prerequisites**
 
@@ -92,11 +81,11 @@ A modern, responsive portfolio website built with **Next.js 15** and **React 19*
 
 | Platform         | Username                                                    | Link                         |
 | ---------------- | ----------------------------------------------------------- | ---------------------------- |
-| 🐙 **GitHub**    | [@harikrishna0315](https://github.com/harikrishna0315)                      | `https://github.com/harikrishna0315` |
-| 💼 **LinkedIn**  | [Hari Krishna](https://www.linkedin.com/in/hari-krishna-2393a633a/)    | Professional Network         |
-| 📸 **Instagram** | [@hari_krishnx](https://instagram.com/hari_krishnx)                 | Creative Updates             |
+|  **GitHub**    | [@harikrishna0315](https://github.com/harikrishna0315)                      | `https://github.com/harikrishna0315` |
+|  **LinkedIn**  | [Hari Krishna](https://www.linkedin.com/in/hari-krishna-2393a633a/)    | Professional Network         |
+|  **Instagram** | [@hari_krishnx](https://instagram.com/hari_krishnx)                 | Creative Updates             |
                  | Tech Thoughts                |
-| 📧 **Email**     | [harikrishnx07@gmail.com](mailto:harikrishnx07@gmail.com) | Direct Contact               |
+|  **Email**     | [harikrishnx07@gmail.com](mailto:harikrishnx07@gmail.com) | Direct Contact               |
 
 </div>
 
