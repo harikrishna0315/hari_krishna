@@ -50,19 +50,17 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-4 left-0 right-0 z-50 transition-all duration-300 ease-out ${
-        isScrolled ? "pt-0 px-2 sm:px-4" : "px-2 sm:px-2"
-      } ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
+      className={`fixed top-4 left-0 right-0 z-50 transition-all duration-300 ease-out ${isScrolled ? "pt-0 px-2 sm:px-4" : "px-2 sm:px-2"
+        } ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
     >
       <div
-        className={`floating-nav rounded-2xl px-4 sm:px-6 py-3 bg-glass-bg transition-all duration-300 max-w-7xl mx-auto ${
-          isScrolled ? "shadow-xl" : "shadow-lg"
-        }`}
+        className={`floating-nav rounded-2xl px-4 sm:px-6 py-3 bg-glass-bg transition-all duration-300 max-w-7xl mx-auto ${isScrolled ? "shadow-xl" : "shadow-lg"
+          }`}
       >
         <div className="flex items-center justify-between">
           <Link
             href="/"
-            className="flex items-center space-x-2 sm:space-x-3 group"
+            className="flex items-center space-x-2 sm:space-x-3 group cursor-can-hover"
           >
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-glass-bg flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
               <Image
@@ -93,7 +91,7 @@ export const Navbar = () => {
             <Button
               variant="outline"
               asChild
-              className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-200"
+              className="border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-200 cursor-can-hover"
             >
               {isResumePage ? (
                 <a href="/docs/HARI_KRISHNA.pdf" download="HARI_KRISHNA_Resume.pdf">
@@ -109,7 +107,7 @@ export const Navbar = () => {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="sm:hidden p-2 rounded-lg hover:bg-muted/50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary/50"
+            className="sm:hidden p-2 rounded-lg hover:bg-muted/50 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary/50 cursor-can-hover"
             aria-label="Toggle mobile menu"
           >
             {isMenuOpen ? (
@@ -128,16 +126,15 @@ export const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`sm:hidden overflow-hidden transition-all duration-300 ease-out ${
-            isMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
-          }`}
+          className={`sm:hidden overflow-hidden transition-all duration-300 ease-out ${isMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+            }`}
         >
           <div className="pt-4 pb-2 border-t border-border/50 mt-4">
             <div className="space-y-3">
               <Button
                 variant="outline"
                 asChild
-                className="w-full border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-200"
+                className="w-full border-primary/30 hover:border-primary hover:bg-primary/10 transition-all duration-200 cursor-can-hover"
               >
                 {isResumePage ? (
                   <a

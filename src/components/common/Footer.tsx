@@ -100,7 +100,7 @@ export const Footer = () => {
                 key={link.label}
                 href={link.href}
                 aria-label={link.label}
-                className="w-8 h-8 flex items-center justify-center rounded-lg border border-primary/30 bg-card/50 hover:bg-primary/10 hover:text-primary text-muted-foreground transition"
+                className="w-8 h-8 flex items-center justify-center rounded-lg border border-primary/30 bg-card/50 hover:bg-primary/10 hover:text-primary text-muted-foreground transition cursor-can-hover"
               >
                 <link.icon size={16} />
               </a>
@@ -113,13 +113,13 @@ export const Footer = () => {
         <div className="text-xs text-center text-muted-foreground space-y-2">
           <p className="flex items-center justify-center gap-2">
             Made with
-            <button onClick={toggleHeart} className="text-primary" aria-label="Toggle heart">
+            <button onClick={toggleHeart} className="text-primary cursor-can-hover" aria-label="Toggle heart">
               {isHeartFilled ? <TbHeartFilled /> : <TbHeart />}
             </button>
             by
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="text-primary/80 hover:text-primary"
+              className="text-primary/80 hover:text-primary cursor-can-hover"
             >
               Hari Krishna
             </button>

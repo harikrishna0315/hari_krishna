@@ -25,7 +25,7 @@ const poppins = Poppins({
 
 
 import { Toaster } from "sonner";
-import Cursor from "@/components/ui/cursor";
+import ElasticCursor from "@/components/ui/cursor";
 import SmoothScroll from "@/components/providers/smooth-scroll";
 
 
@@ -191,7 +191,7 @@ export default function RootLayout({
         />
         <SmoothScroll>
           {children}
-          <Cursor />
+          <ElasticCursor />
         </SmoothScroll>
         <Toaster position="bottom-right" richColors closeButton />
         <Analytics />

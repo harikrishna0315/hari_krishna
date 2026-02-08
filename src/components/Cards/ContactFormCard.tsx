@@ -139,7 +139,7 @@ export const ContactFormCard = () => {
       >
         {/* Enhanced Glass shimmer effect */}
         <motion.div
-          className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-1000"
+          className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-1000 pointer-events-none"
           style={{
             background:
               "linear-gradient(135deg, transparent 30%, hsl(var(--primary) / 0.2) 50%, transparent 70%)",
@@ -151,7 +151,7 @@ export const ContactFormCard = () => {
 
         {/* Enhanced Glowing border effect */}
         <motion.div
-          className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+          className="absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
           style={{
             background:
               "linear-gradient(45deg, hsl(var(--primary) / 0.3), hsl(var(--secondary) / 0.2), hsl(var(--primary) / 0.3))",
@@ -169,7 +169,7 @@ export const ContactFormCard = () => {
 
         {/* Floating particles effect */}
         <motion.div
-          className="absolute top-4 right-4 w-2 h-2 rounded-full bg-primary/30 blur-sm"
+          className="absolute top-4 right-4 w-2 h-2 rounded-full bg-primary/30 blur-sm pointer-events-none"
           animate={{
             y: [0, -10, 0],
             opacity: [0.3, 0.8, 0.3],
@@ -182,7 +182,7 @@ export const ContactFormCard = () => {
           }}
         />
         <motion.div
-          className="absolute bottom-6 left-6 w-1 h-1 rounded-full bg-secondary/40 blur-sm"
+          className="absolute bottom-6 left-6 w-1 h-1 rounded-full bg-secondary/40 blur-sm pointer-events-none"
           animate={{
             y: [0, 8, 0],
             x: [0, 5, 0],

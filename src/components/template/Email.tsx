@@ -41,7 +41,7 @@ export function EmailTemplate({
       url: `https://instagram.com/${selfData.socials_username.instagram}`,
       icon: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
     },
-    
+
   ];
 
   return (
@@ -69,7 +69,7 @@ export function EmailTemplate({
             <Text style={heading}>Hey {userName}! 🚀</Text>
             <Text style={text}>
               Thanks a bunch for reaching out! 🎉 <br />
-              Your message just landed safely in my inbox, and ]
+              Your message just landed safely in my inbox, and I'll get back to you as soon as possible!
             </Text>
 
             <Text style={text}>
@@ -84,7 +84,7 @@ export function EmailTemplate({
             <Text style={label}>💬 Message:</Text>
             <pre style={codeBlock}>{userMessage}</pre>
 
-            
+
 
             <Section style={socialSection}>
               <table style={socialTable}>
@@ -110,7 +110,7 @@ export function EmailTemplate({
 
             <Text style={footerText}>
               You&apos;re receiving this email because you contacted me via my
-              site. 
+              site.
             </Text>
           </Section>
         </Container>
