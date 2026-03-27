@@ -88,7 +88,7 @@ export const Footer = () => {
               />
             </motion.span>
             <h3
-              className={`${quentine.className} text-2xl font-semibold text-primary`}
+              className={`${quentine.className} text-2xl font-semibold text-primary cursor-can-hover`}
             >
               Hari Krishna
             </h3>

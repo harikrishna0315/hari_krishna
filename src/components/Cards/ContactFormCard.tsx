@@ -112,10 +112,8 @@ export const ContactFormCard = () => {
         damping: 15,
       }}
       whileHover={{
-        y: -15,
-        scale: 1.03,
-        rotateX: -2,
-        rotateY: 2,
+        y: -8,
+        scale: 1.02,
         transition: {
           duration: 0.4,
           type: "spring",
@@ -123,18 +121,13 @@ export const ContactFormCard = () => {
           damping: 20,
         },
       }}
-      className="group h-full perspective-1000"
-      style={{
-        transformStyle: "preserve-3d",
-        perspective: "1000px",
-      }}
+      className="group h-full"
     >
       <Card
         className="relative overflow-hidden backdrop-blur-xl border transition-all duration-700 h-full flex flex-col shadow-xl hover:shadow-2xl group-hover:shadow-luxury-hover-glow/40"
         style={{
           background: "hsl(var(--glass-bg))",
           borderColor: "hsl(var(--glass-border))",
-          transformStyle: "preserve-3d",
         }}
       >
         {/* Enhanced Glass shimmer effect */}
@@ -200,8 +193,8 @@ export const ContactFormCard = () => {
           <form onSubmit={sendEmail} className="space-y-3">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               <motion.div
-                initial={{ opacity: 0, x: -40, rotateY: -15 }}
-                whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
+                initial={{ opacity: 0, x: -40 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 transition={{
                   duration: 0.7,
                   delay: 0.3,
@@ -209,8 +202,6 @@ export const ContactFormCard = () => {
                   stiffness: 120,
                   damping: 15,
                 }}
-                whileHover={{ scale: 1.02, rotateY: 2 }}
-                whileFocus={{ scale: 1.02, rotateY: 2 }}
               >
                 <input
                   required
@@ -229,8 +220,8 @@ export const ContactFormCard = () => {
               </motion.div>
 
               <motion.div
-                initial={{ opacity: 0, x: 40, rotateY: 15 }}
-                whileInView={{ opacity: 1, x: 0, rotateY: 0 }}
+                initial={{ opacity: 0, x: 40 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 transition={{
                   duration: 0.7,
                   delay: 0.4,
@@ -238,8 +229,6 @@ export const ContactFormCard = () => {
                   stiffness: 120,
                   damping: 15,
                 }}
-                whileHover={{ scale: 1.02, rotateY: -2 }}
-                whileFocus={{ scale: 1.02, rotateY: -2 }}
               >
                 <input
                   required

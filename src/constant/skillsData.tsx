@@ -31,6 +31,7 @@ import {
   SiNextdotjs,
   SiPostman,
   SiReplit,
+  SiSpringboot,
   SiTailwindcss,
   SiTypescript,
   SiVercel,
@@ -71,6 +72,7 @@ export const skillsData: SkillsDataProps[] = [
        { title: "Flask", logoComponent: SiExpress, color: "#d4d4d8" }, // reuse SiExpress icon
       { title: "OpenCV", logoComponent: FaRobot, color: "#0A66C2" }, // placeholder icon
       { title: "MediaPipe", logoComponent: FaRobot, color: "#FF9800" }, // placeholder,
+      { title: "Spring Boot", logoComponent: SiSpringboot, color: "#6DB33F" },
     ],
   },
   {
@@ -80,25 +82,9 @@ export const skillsData: SkillsDataProps[] = [
       { title: "VS Code", logoComponent: FaLaptopCode, color: "#007ACC" },
       { title: "GitHub", logoComponent: FaGithub, color: "#d4d4d8" },
       { title: "Jupyter/Colab", logoComponent: FaPython, color: "#FFCA28" },
-    ],
-  },
-  {
-    title: "IoT & Embedded",
-    data: [
-      { title: "Arduino", logoComponent: FaLaptopCode, color: "#009688" },
-      { title: "Sensors", logoComponent: FaLaptopCode, color: "#FFC107" },
-      { title: "Serial Communication", logoComponent: FaLaptopCode, color: "#FF5722" },
-      { title: "Hardware-Software Automation", logoComponent: FaLaptopCode, color: "#795548" },
-  
-    ],
-  },
-  {
-    title: "Web & Apps",
-    data: [
-      { title: "HTML", logoComponent: FaHtml5, color: "#E34F26" },
-      { title: "CSS", logoComponent: FaCss3, color: "#1572B6" },
-      { title: "JavaScript", logoComponent: FaSquareJs, color: "#F7DF1E" },
-      { title: "Google Workspace", logoComponent: FaLaptopCode, color: "#4285F4" }, // placeholder
+      { title: "Postman", logoComponent: SiPostman, color: "#FF6C37" },
     ],
   }
+
+ 
 ];

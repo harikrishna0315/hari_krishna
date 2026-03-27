@@ -28,7 +28,7 @@ export const Contact = () => {
           className="text-center mb-16"
         >
           <motion.h2
-            className={`text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 relative ${nasalization.className}`}
+            className={`text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 relative ${nasalization.className} cursor-can-hover`}
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.1 }}
@@ -52,7 +52,7 @@ export const Contact = () => {
               className="space-y-4"
             >
               <h3
-                className="text-xl md:text-2xl font-semibold mb-6 font-mono"
+                className="text-xl md:text-2xl font-semibold mb-6 font-mono cursor-can-hover"
                 style={{ color: "hsl(var(--foreground))" }}
               >
                 Get In Touch
@@ -67,7 +67,7 @@ export const Contact = () => {
               transition={{ duration: 0.7, delay: 0.4 }}
             >
               <h3
-                className="text-xl md:text-2xl font-semibold mb-6 font-mono"
+                className="text-xl md:text-2xl font-semibold mb-6 font-mono cursor-can-hover"
                 style={{ color: "hsl(var(--foreground))" }}
               >
                 Socials . . .

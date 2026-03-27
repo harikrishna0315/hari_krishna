@@ -18,4 +18,20 @@ export const experienceData = [
     url: "https://www.udemy.com/",
     certificateImage: "/certificates/certificate_1.jpg",
   },
+  {
+    role: "Doctor Dev Hackathon - E-Summit 2026",
+    year: "2026",
+    description: [
+      "Participated in the Doctor Dev Hackathon organized during E-Summit 2026 at SRMIST Kattankulathur.",
+      "Successfully competed as a team and secured a position in the Top 20 out of 150 participating teams.",
+    ],
+    company: "SRMIST Kattankulathur",
+    technologies: [
+      "Hackathon",
+      "Problem Solving",
+      "Teamwork",
+    ],
+    url: "",
+    certificateImage: "/certificates/drdev.pdf",
+  },
 ];

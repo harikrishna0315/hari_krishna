@@ -82,7 +82,7 @@ export const Skills = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-8">
           <motion.h2
-            className={`${nasalization.className} text-4xl font-bold text-primary`}
+            className={`${nasalization.className} text-4xl font-bold text-primary cursor-can-hover`}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}

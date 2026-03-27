@@ -16,12 +16,12 @@ export const projectsData = [
 
   },
   {
-    name: "AI Fitness Predictor",
+    name: "Smart Dental Appointment Reminder System",
     description:
-  "A machine learning–driven fitness recommendation system that analyzes lifestyle data to generate personalized workout and diet plans. Uses clustering and predictive models exposed through a Flask-based REST API for real-time plan generation.",
-    github_link: "", // add repo link if available
-    demo: "https://github.com/harikrishna0315/ai_fitness_planner", // add demo link if deployed
-    tech: ["Python", "Machine Learning", "Flask", "scikit-learn", "REST API"],
+      "Automated Patient Notification Platform. Built a full-stack reminder system that stores patient appointments, computes reminder triggers, and automatically dispatches notifications using backend scripts and cloud database integration. Designed a web dashboard for managing appointments and monitoring reminder delivery, enabling real-time updates and improving clinic workflow efficiency.",
+    github_link: "https://github.com/harikrishna0315/Dental_Reminder",
+    demo: "",
+    tech: ["Python", "Supabase", "JavaScript", "HTML", "CSS", "FastAPI"],
 
   },
   {

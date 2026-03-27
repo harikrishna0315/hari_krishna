@@ -93,7 +93,7 @@ export const About = () => {
               }}
             >
               <h2
-                className={`${nasalization.className} text-4xl md:text-5xl font-bold relative`}
+                className={`${nasalization.className} text-4xl md:text-5xl font-bold relative cursor-can-hover`}
                 style={{ color: "hsl(var(--primary))" }}
               >
                 About Me
@@ -152,7 +152,7 @@ export const About = () => {
                   href={`https://www.google.com/maps/place/${selfData.current_location.city}+${selfData.current_location.state}+${selfData.current_location.country}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 px-6 py-3 rounded-full border border-primary/20 hover:border-primary/50 group transition-all duration-300"
+                  className="flex items-center gap-3 px-6 py-3 rounded-full border border-primary/20 hover:border-primary/50 group transition-all duration-300 cursor-can-hover"
                 >
                   <motion.div
                     animate={

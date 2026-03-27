@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer";
 import { NextResponse } from "next/server";
-import { render, pretty } from "@react-email/render";
+import { render } from "@react-email/render";
 import validator from "validator";
 
 import { EmailTemplate } from "@/components/template/Email";
@@ -29,14 +29,12 @@ export async function POST(request: Request) {
     );
   }
 
-  const htmlContent = await pretty(
-    await render(
-      EmailTemplate({
-        userName: senderName,
-        contactReason: reasonToContact,
-        userMessage: senderMsg,
-      })
-    )
+  const htmlContent = await render(
+    EmailTemplate({
+      userName: senderName,
+      contactReason: reasonToContact,
+      userMessage: senderMsg,
+    })
   );
 
   // 📩 EMAIL 1: OWNER (YOU)
@@ -63,7 +61,9 @@ export async function POST(request: Request) {
   };
 
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
     auth: {
       user: process.env.email_from,
       pass: process.env.email_password,

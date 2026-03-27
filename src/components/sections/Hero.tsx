@@ -29,7 +29,7 @@ export const Hero = () => {
         >
           <div className="space-y-6">
             <motion.h1
-              className="font-heading text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tight"
+              className="font-heading text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tight cursor-can-hover"
               style={{ color: "hsl(var(--primary))" }}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -93,7 +93,7 @@ export const Hero = () => {
                     whileHover={{ x: "100%" }}
                     transition={{ duration: 0.6, ease: "easeInOut" }}
                   />
-                  <span className="relative z-10 font-medium">View Resume</span>
+                  <span className="relative z-10 font-medium cursor-can-hover">View Resume</span>
                 </Link>
               </Button>
             </motion.div>
